@@ -23,5 +23,7 @@ WebUI.navigateToUrl('https://google.com')
 
 WebUI.click(findTestObject(null))
 
+WebUI.waitForAlert(0)
+
 WebUI.closeBrowser()
 
